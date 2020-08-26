@@ -7,9 +7,7 @@ public class NumberSumLength {
 	public static boolean checkNumberPowerLength(long num) {
 		 long  n, sum = 0;
 		 int pwr,cnt=0;
-	        Scanner sc = new Scanner(System.in);
-	        System.out.print("Enter the number:");
-	        num = sc.nextInt();
+	       
 	        while(num >= 0)
 	        {
 	        	cnt++;
